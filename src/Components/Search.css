@@ -1,0 +1,17 @@
+*{
+    position: relative;
+    z-index: 1;
+}
+
+.searchbar{
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    margin-left: 520px;
+    margin-top: 0px;
+    border-width: 0px;
+    
+}
+
+
