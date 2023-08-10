@@ -1,114 +1,118 @@
-.weather-forecast, .forecast-cards{
-    display: flex;
-    grid-template-columns: repeat(8, 5px);
+.weather-forecast,
+.forecast-cards {
+  display: flex;
+  grid-template-columns: repeat(8, 5px);
 }
-.card{
-    width: 130px;
-    height:270px;
-    border-radius: 12px;
-    box-shadow: 10px -2px 20px 2px rgba(220, 218, 218, 0.458);
-    color: #fff;
-    background-color: #9a979720;
-    margin-left: 37px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    padding: 0 20px 20px 20px;
-    font-family: roboto;
-    color: whitesmoke;
-    font-weight: bold;
-    z-index: -1;
+.card {
+  width: 130px;
+  height: 270px;
+  border-radius: 12px;
+  box-shadow: 10px -2px 20px 2px rgba(220, 218, 218, 0.458);
+  color: #fff;
+  background-color: #9a979720;
+  margin-left: 37px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 0 20px 20px 20px;
+  font-family: roboto;
+  color: whitesmoke;
+  font-weight: bold;
+  z-index: -1;
 }
-.forecast-top, .forecast-middle,  .forecast-bottom{
-    display: flex;
-    justify-content: center;
+.forecast-top,
+.forecast-middle,
+.forecast-bottom {
+  display: flex;
+  justify-content: center;
 }
-.forecast-weather-icon{
-    width: 100px;
-    margin-bottom: 0;
-    margin-left: 10px;
+.forecast-weather-icon {
+  width: 100px;
+  margin-bottom: 0;
+  margin-left: 10px;
 }
-.forecast-temperature{
-    margin-top: 5px;
-    font-size: 23px;
-    text-align: center;
-    margin-bottom: 0;
+.forecast-temperature {
+  margin-top: 5px;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 0;
 }
-.forecast-day-date, .forecast-day-date2{
-    color: rgb(255, 174, 0);
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 5px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.forecast-day-date,
+.forecast-day-date2 {
+  color: rgb(255, 174, 0);
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.forecast-day-date2{
-    text-align: left;
-    margin-left: 50px;
-    margin-right: 8px;
+.forecast-day-date2 {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 8px;
 }
-.date{
-    color:whitesmoke;
-    font-size: 15px;
+.date {
+  color: whitesmoke;
+  font-size: 15px;
 }
-.date-div{
-    display: flex;
-} 
-.forecast-date{
-    color:whitesmoke;
-    font-size: 15px;
-    display: inline-block;
+.date-div {
+  display: flex;
+}
+.forecast-date {
+  color: whitesmoke;
+  font-size: 15px;
+  display: inline-block;
 }
 table {
-    box-shadow: 10px -2px 20px 2px rgba(220, 218, 218, 0.458);
-    color: #fff;
-    background-color: #9a979720;
-    border-style:none;
-    width: 90%;
-    height: 50px;
-    margin-top: 15px;
-    margin-left: 90px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    border-radius: 20px;
+  box-shadow: 10px -2px 20px 2px rgba(220, 218, 218, 0.458);
+  color: #fff;
+  background-color: #9a979720;
+  border-style: none;
+  width: 90%;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
 }
-td, th {
-    margin: 5px;
-    text-align: center;
-    font-size: 19px;
-    color: whitesmoke;
+td,
+th {
+  margin: 5px;
+  text-align: center;
+  font-size: 19px;
+  color: whitesmoke;
 }
-tr{
-    height:50px;
+tr {
+  height: 50px;
 }
-body{
-    font-family: garamond;
-    color:#243763
+body {
+  font-family: garamond;
+  color: #243763;
 }
-.details{
-    margin-top: 10px;
-    margin-left: 70px;
-    background-color: #9a979700;
-    border-width: 0;
-    color: whitesmoke;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: garamond;
+.details {
+  margin-top: 10px;
+  margin-left: 70px;
+  background-color: #9a979700;
+  border-width: 0;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: garamond;
 }
 .moredetails {
-    margin-top: 20px;
-    margin-left: 500px;
-    font-size: 20px;
-    font-weight: bold;
-    color: whitesmoke;
-    display: flex;
+  margin-top: 20px;
+  margin-left: 500px;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  display: flex;
 }
 
 .moredetails p {
-    margin-left: 50px;
+  margin-left: 50px;
 }
-.close-btn{
-    background-color: transparent;
-    border-width: 0;
-    margin-top: 45px;
-    margin-left: 1620px;
+.close-btn {
+  background-color: transparent;
+  border-width: 0;
+  margin-top: 45px;
+  margin-left: 1620px;
 }
-  
